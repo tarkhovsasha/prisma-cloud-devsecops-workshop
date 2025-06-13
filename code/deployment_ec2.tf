@@ -27,7 +27,7 @@ EOF
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_host"
-    yor_trace            = "97e2227a-f0f5-4dab-bd07-ca5223f97ce1"
+    yor_trace            = "8c9115df-412a-40bd-aad2-fd9b5f24be3a"
   }
 }
 
@@ -46,7 +46,7 @@ resource "aws_ebs_volume" "web_host_storage" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_host_storage"
-    yor_trace            = "dddebd77-e4d6-4638-b8e2-e210b8486bd6"
+    yor_trace            = "5e01be6a-32ea-4f9c-8bf4-a2b0b5883d79"
   }
 }
 
@@ -64,7 +64,7 @@ resource "aws_ebs_snapshot" "example_snapshot" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "example_snapshot"
-    yor_trace            = "6c40bf67-04b5-48c4-99f9-09b92a985a4b"
+    yor_trace            = "6000e0f5-dd00-47b5-8fd4-4e31f2ae15ab"
   }
 }
 
@@ -112,7 +112,7 @@ resource "aws_security_group" "web-node" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web-node"
-    yor_trace            = "30efdd43-b829-462f-82e9-1f784bbc6566"
+    yor_trace            = "0e11ac57-f9c7-481d-8207-a682f378089c"
   }
 }
 
@@ -130,7 +130,7 @@ resource "aws_vpc" "web_vpc" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_vpc"
-    yor_trace            = "fde0ff6f-0bc0-4923-9f7d-4ae5568669a3"
+    yor_trace            = "41cd2f44-f3b0-438e-9776-bed922d2d584"
   }
 }
 
@@ -150,7 +150,7 @@ resource "aws_subnet" "web_subnet" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_subnet"
-    yor_trace            = "d2f3b08a-8336-4c7d-a3c1-8a97f7c8aea2"
+    yor_trace            = "f3ccef4b-b327-405d-bae3-3e5dfb0cfb4c"
   }
 }
 
@@ -170,7 +170,7 @@ resource "aws_subnet" "web_subnet2" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_subnet2"
-    yor_trace            = "591e1f90-14ca-41c9-a211-ca6de8d3c366"
+    yor_trace            = "b171b518-fc6c-4e05-9ac5-2ada171e77fc"
   }
 }
 
@@ -188,7 +188,7 @@ resource "aws_internet_gateway" "web_igw" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_igw"
-    yor_trace            = "b95d8074-a613-43be-a0bb-ef81ac012099"
+    yor_trace            = "4ddd250c-ee51-4068-bf65-5b9110e2a522"
   }
 }
 
@@ -205,7 +205,7 @@ resource "aws_route_table" "web_rtb" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_rtb"
-    yor_trace            = "f94353f4-8997-4670-8557-1e73f8d9e21d"
+    yor_trace            = "c6d0045e-15d3-4685-9bd4-95f97d25a734"
   }
 }
 
@@ -242,7 +242,7 @@ resource "aws_network_interface" "web-eni" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web-eni"
-    yor_trace            = "e8625a89-91b1-4bb2-8c91-926a2d8a395e"
+    yor_trace            = "225708d4-3e52-4a74-b6fb-e52d8bbaa5e6"
   }
 }
 
@@ -263,7 +263,7 @@ resource "aws_flow_log" "vpcflowlogs" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "vpcflowlogs"
-    yor_trace            = "255a799e-a5c5-409c-9022-432342f4bd59"
+    yor_trace            = "9db93dd9-616d-493b-9204-ef7cd123276e"
   }
 }
 
@@ -280,7 +280,7 @@ resource "aws_s3_bucket" "flowbucket" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "flowbucket"
-    yor_trace            = "76a8ee70-cf51-44d5-9aae-b9f6a4f4916b"
+    yor_trace            = "19f1b360-b315-4e16-8386-02f1c7db1524"
   }
 }
 

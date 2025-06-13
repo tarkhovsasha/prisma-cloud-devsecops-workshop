@@ -15,7 +15,7 @@ resource "aws_s3_bucket" "dev_s3" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "dev_s3"
-    yor_trace            = "3c72232d-98a3-433e-8382-0b6bb2fcbaa5"
+    yor_trace            = "57841522-4eeb-45cb-af50-16d38200794e"
   }
 }
 

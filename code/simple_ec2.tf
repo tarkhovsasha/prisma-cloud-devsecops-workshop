@@ -19,6 +19,6 @@ resource "aws_ec2_host" "test" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "test"
-    yor_trace            = "2838775d-e5b5-46d7-be0c-8064576645f6"
+    yor_trace            = "0cbc4718-9b4a-42de-a623-1dfd4c8b7082"
   }
 }

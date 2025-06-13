@@ -15,7 +15,7 @@ resource "aws_s3_bucket" "data" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "data"
-    yor_trace            = "fb0a608b-2cc5-48ec-85b8-462a78464492"
+    yor_trace            = "33d8ef9f-1692-4077-9f5e-22978d7b807e"
   }
 }
 
@@ -33,7 +33,7 @@ resource "aws_s3_bucket_object" "data_object" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "data_object"
-    yor_trace            = "20ec5dee-cfe3-4e51-8cb3-0432f4ff313c"
+    yor_trace            = "f7196159-8a21-4801-bf4e-ea4029844908"
   }
 }
 
@@ -54,7 +54,7 @@ resource "aws_s3_bucket" "financials" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "financials"
-    yor_trace            = "d66eb3d0-c2b2-49a6-b9f4-6807894de200"
+    yor_trace            = "a61ed314-fdcf-4e7c-9500-0617ac722d52"
   }
 }
 
@@ -77,7 +77,7 @@ resource "aws_s3_bucket" "operations" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "operations"
-    yor_trace            = "43c1768c-c212-4ab3-9507-0c29cee5191a"
+    yor_trace            = "341e8c55-321b-4af5-884c-877162b8b1a8"
   }
 }
 
@@ -103,7 +103,7 @@ resource "aws_s3_bucket" "data_science" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "data_science"
-    yor_trace            = "2541a852-bc39-4f74-9a07-fe2193632a4c"
+    yor_trace            = "2eaf6781-2a7a-4331-92d4-3f71f0a97d54"
   }
 }
 
@@ -132,6 +132,6 @@ resource "aws_s3_bucket" "logs" {
     git_org              = "tarkhovsasha"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "logs"
-    yor_trace            = "ee0d4796-9061-4dd2-9eb9-29657efc5a71"
+    yor_trace            = "49d78238-a277-44d9-815b-6084aff48819"
   }
 }
