@@ -8,10 +8,6 @@ resource "aws_s3_bucket" "dev_s3" {
   # bucket does not have access logs
   bucket_prefix = "dev-"
 
-  versioning_configuration {
-    status = "Enabled"
-  }
-
   tags = {
     Environment          = "Dev"
     git_commit           = "bad08bae5817838ef3ac4aaadb27e21a072b334e"
@@ -23,6 +19,14 @@ resource "aws_s3_bucket" "dev_s3" {
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "dev_s3"
     yor_trace            = "fbec6fcb-1887-4ded-a4b0-dba547452804"
+  }
+}
+
+resource "aws_s3_bucket_versioning" "dev_s3" {
+  bucket = aws_s3_bucket.dev_s3.id
+
+  versioning_configuration {
+    status = "Enabled"
   }
 }
 
