@@ -13,7 +13,16 @@ resource "aws_s3_bucket" "dev_s3" {
   }
 
   tags = {
-    Environment      = "Dev"
+    Environment          = "Dev"
+    git_commit           = "bad08bae5817838ef3ac4aaadb27e21a072b334e"
+    git_file             = "code/build/s3.tf"
+    git_last_modified_at = "2025-06-13 01:55:50"
+    git_last_modified_by = "191038348+tarkhovsasha@users.noreply.github.com"
+    git_modifiers        = "191038348+tarkhovsasha"
+    git_org              = "tarkhovsasha"
+    git_repo             = "prisma-cloud-devsecops-workshop"
+    yor_name             = "dev_s3"
+    yor_trace            = "fbec6fcb-1887-4ded-a4b0-dba547452804"
   }
 }
 
