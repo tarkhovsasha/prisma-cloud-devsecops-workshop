@@ -3,6 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "dev_s3" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
   bucket_prefix = "dev-"
 
   tags = {
